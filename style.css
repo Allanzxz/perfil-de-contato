@@ -140,7 +140,7 @@ ul li a:hover {
 }
 
 ul li a:hover ion-icon {
-  fill: var(--stroke-color);
+  color: var(--stroke-color);
 }
 
 ul li a ion-icon {
