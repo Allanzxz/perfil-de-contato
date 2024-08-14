@@ -6,8 +6,8 @@
 
 :root {
   --text-color: white;
-  /* --bg-url: url(./assets/bg-mobile.png); */
-  --bg-url: linear-gradient(43deg, #27135fb0, #0B101E, #270135fb, #0B101E);
+  //--bg-url: url(./assets/bg-mobile.png);
+  --bg-url: linear-gradient(43deg, #270135fb, #0b101e, #270135fb, #0b101e);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -18,7 +18,7 @@
 .light {
   --text-color: black;
   /* --bg-url: url(./assets/bg-mobile-light.jpg); */
-  --bg-url: linear-gradient(43deg, #CDC9F1, #FDFDFD, #FFFFFF, #9D93D6);
+  --bg-url: linear-gradient(43deg, #cdc9f1, #fdfdfd, #ffffff, #9d93d6);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -27,8 +27,8 @@
 }
 
 body {
-   /* background: var(--bg-url) no-repeat top center/cover; */ 
-   background: var(--bg-url);
+  //background: var(--bg-url) no-repeat top center/cover;
+  background: var(--bg-url);
 }
 
 body * {
@@ -39,8 +39,8 @@ body * {
 #container {
   width: 100vw;
   height: 100vh;
-    max-width: 700px;
-  margin: auto ;
+  max-width: 700px;
+  margin: auto;
   padding: 0 24px;
 }
 
@@ -201,7 +201,7 @@ footer a:hover {
   }
 
   .light {
-    --bg-url: url(./assets/bg-desktop-light.jpg);
+    /* --bg-url: url(./assets/bg-desktop-light.jpg); */
   }
 }
 
