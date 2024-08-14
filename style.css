@@ -6,7 +6,7 @@
 
 :root {
   --text-color: white;
-  //--bg-url: url(./assets/bg-mobile.png);
+  /* --bg-url: url(./assets/bg-mobile.png); */
   --bg-url: linear-gradient(43deg, #270135fb, #0b101e, #270135fb, #0b101e);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
@@ -27,7 +27,7 @@
 }
 
 body {
-  //background: var(--bg-url) no-repeat top center/cover;
+  /* background: var(--bg-url) no-repeat top center/cover; */
   background: var(--bg-url);
 }
 
